@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <section class="form-container">
-            <form >
-                <section class="input-password">
-                    <input class="my-textfield my-width-fill-parent" type="password" name="" id="" placeholder="New Pssword">
-                </section>
-                <section class="criteria">
-                    <div class="section-criteria-div">
-                        <ul>
-                            <li>
-                                <input type="radio" name="" id="characterLengh">
-                                <span>
-                                    <label for="characterLengh">
-                                        8 - 32 characters (no spaces)
-                                    </label>
-                                </span>
-                            </li>
-                            <li>
-                                <input type="radio" name="upperCaseCharacters" id="upperCaseCharacters">
-                                <span>
-                                    <label for="upperCaseCharacters">
-                                        uppercase characters (A-Z)
-                                    </label>
-                                </span>
-                            </li>
-                            <li>
-                                <input type="radio" name="lowerCaseCharacters" id="lowerCaseCharacters">
-                                <span>
-                                    <label for="upperCaseCharacters">
-                                        lowercase characters (a-a)
-                                    </label>
-                                </span>
-                            </li>
-                            <li>
-                                <input type="radio" name="digit" id="digit">
-                                <span>
-                                    <label for="digit">
-                                        digit (0-9)
-                                    </label>
-                                </span>
-                            </li>
+      <section class="form-container">
+        <form>
+          <section class="input-password">
+            <input
+              class="my-textfield my-width-fill-parent"
+              type="password"
+              name=""
+              id=""
+              placeholder="New Pssword"
+            />
+            <p class="error-text">
+              your password must meet the requirements below
+            </p>
+          </section>
+          <section class="criteria">
+            <div class="section-criteria-div">
+              <ul>
+                <li>
+                  <input type="radio" name="" id="characterLengh" />
+                  <span>
+                    <label for="characterLengh">
+                      8 - 32 characters (no spaces)
+                    </label>
+                  </span>
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="upperCaseCharacters"
+                    id="upperCaseCharacters"
+                  />
+                  <span>
+                    <label for="upperCaseCharacters">
+                      uppercase characters (A-Z)
+                    </label>
+                  </span>
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="lowerCaseCharacters"
+                    id="lowerCaseCharacters"
+                  />
+                  <span>
+                    <label for="upperCaseCharacters">
+                      lowercase characters (a-a)
+                    </label>
+                  </span>
+                </li>
+                <li>
+                  <input type="radio" name="digit" id="digit" />
+                  <span>
+                    <label for="digit"> digit (0-9) </label>
+                  </span>
+                </li>
 
-                            <li>
-                                <input type="radio" name="specialChars" id="specialChars">
-                                <span>
-                                    <label for="specialChars">
-                                        special characters (e.g !@#$%)
-                                    </label>
-                                </span>
-                            </li>
-                        </ul>
-                       
-                    </div>
-                </section>
-                <section class="input-password">
-                    <input class="my-textfield my-width-fill-parent" type="password" name="" id="" placeholder="Confirm Pssword">
-                </section>
-                <section class="btn-submit">
-                    <button class="btn my-width-fill-parent">
-                        Reset Password
-                    </button>
-                </section>
-            </form>
-        </section>
+                <li>
+                  <input type="radio" name="specialChars" id="specialChars" />
+                  <span>
+                    <label for="specialChars">
+                      special characters (e.g !@#$%)
+                    </label>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="input-password">
+            <input
+              class="my-textfield my-width-fill-parent"
+              type="password"
+              name=""
+              id=""
+              placeholder="Confirm Pssword"
+            />
+            <p class="error-text">
+              your password must meet the requirements below
+            </p>
+          </section>
+          <section class="btn-submit">
+            <button class="btn my-width-fill-parent">Reset Password</button>
+          </section>
+        </form>
+      </section>
     </div>
-</body>
+  </body>
 </html>
